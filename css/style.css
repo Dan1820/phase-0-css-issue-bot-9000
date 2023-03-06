@@ -1,23 +1,40 @@
 body {
-  background pink;
+  background-color:  pink;
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em;
+  text-align: center;
+  
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
+  text-align: center
+}
+p {
+  text-align: center;
 }
 
-.completed {
+#tasks {
   font-family: 12px;
+  background: #ccc;
+  
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc;
   text-decoration: underline;
+  font-family: 12px;
+  text-align: left;
+
+}
+#adam {
+ 
+  align-items: center;
+  
+  
 }
